@@ -27,10 +27,21 @@
 
     App.directive("infiniteScroll", function () {
         console.log("starting infiniteScroll directive");
-        function linkFn(scope, scrollElement, attr) {
+        var arr = [];
+        function linkFn(scope, elm, attr) {
             console.log("starting linker");
-            scrollElement.bind("scroll", function(event) {
-                console.log(event);
+            elm.bind("scroll", function(event) {
+                var completeHeight = elm[0].scrollHeight,
+                    boundSize = (completeHeight / 5),
+                    top = elm[0].scrollTop,
+                    bottom = top + elm[0].clientHeight,
+                    topInBounds = top < boundSize,
+                    bottomInBounds = (completeHeight - boundSize ) < bottom;
+                if( topInBounds || bottomInBounds ) {
+                    console.log(topInBounds + " " + bottomInBounds);
+                }
+                //console.log("height: " + completeHeight + " top: " + top + " bottom: " + bottom);
+
             });
         }
 
@@ -38,7 +49,6 @@
 
             var settings = angular.fromJson($attrs.infiniteScroll);
             console.log("starting controller with size: " + settings.size);
-            var arr = [];
             for (var i = -settings.size; i < settings.size; i++) {
                 arr.push({ p: i, element: null});
             }

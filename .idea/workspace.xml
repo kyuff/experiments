@@ -7,8 +7,8 @@
     </list>
     <ignored path="experiments.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1372877841250" ignored="false" />
-    <file path="/index.html" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1372878992471" ignored="false" />
+    <file path="/Dummy.txt" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1372879163113" ignored="false" />
+    <file path="/index.html" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1372879945293" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/infinite-scroll/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="68" selection-start="1589" selection-end="1589" vertical-scroll-proportion="-0.09838473">
+            <state line="43" column="64" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.40509915">
               <folding />
             </state>
           </provider>
@@ -333,7 +333,11 @@
       <created>1372877849038</created>
       <updated>1372877849038</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Listening to scroll events">
+      <created>1372879171598</created>
+      <updated>1372879171598</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -408,7 +412,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bound translucent template into the directive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Listening to scroll events" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -425,6 +429,7 @@
     <MESSAGE value="Augmented Javascript experiment" />
     <MESSAGE value="Start of infinite scroll experiment" />
     <MESSAGE value="Bound translucent template into the directive" />
+    <MESSAGE value="Listening to scroll events" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -484,7 +489,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/infinite-scroll/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="68" selection-start="1589" selection-end="1589" vertical-scroll-proportion="-0.09838473">
+        <state line="43" column="64" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.40509915">
           <folding />
         </state>
       </provider>

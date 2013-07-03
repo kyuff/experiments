@@ -16,9 +16,9 @@
 </head>
 <body>
 <div ng-controller="Ctrl as ctrl">
-    <input ng-model="ctrl.hello" type="text"/> {{  ctrl.hello }}
+    <input ng-model="ctrl.hello" type="text"/> {{ ctrl.hello }}
     <div class="content" infinite-scroll='{ "size": 50 }'>
-        Yo {{  ctrl.getName(isOffset) }}
+        Yo {{ ctrl.getName(isOffset) }}
     </div>
 </div>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
@@ -28,17 +28,21 @@
     App.directive("infiniteScroll", function () {
         console.log("starting infiniteScroll directive");
         var arr = [];
+
         function linkFn(scope, elm, attr) {
             console.log("starting linker");
-            elm.bind("scroll", function(event) {
+            elm.bind("scroll", function (event) {
                 var completeHeight = elm[0].scrollHeight,
-                    boundSize = (completeHeight / 5),
-                    top = elm[0].scrollTop,
-                    bottom = top + elm[0].clientHeight,
-                    topInBounds = top < boundSize,
-                    bottomInBounds = (completeHeight - boundSize ) < bottom;
-                if( topInBounds || bottomInBounds ) {
-                    console.log(topInBounds + " " + bottomInBounds);
+                        boundSize = (completeHeight / 5),
+                        top = elm[0].scrollTop,
+                        bottom = top + elm[0].clientHeight,
+                        topInBounds = top < boundSize,
+                        bottomInBounds = (completeHeight - boundSize ) < bottom;
+                if (topInBounds || bottomInBounds) {
+                    scope.$apply(function () {
+                        scope.$broadcast("InfiniteScrollOffsetMoved", topInBounds ? -50 : 50);
+                        arr[50].element[0].scrollIntoView(true);
+                    });
                 }
                 //console.log("height: " + completeHeight + " top: " + top + " bottom: " + bottom);
 
@@ -54,10 +58,10 @@
             }
             $scope.__infiniteScrollSizer = arr;
 
-            $scope.__infiniteScrollRegister = function(i, el) {
+            $scope.__infiniteScrollRegister = function (i, el) {
                 arr[i].element = el;
                 // Check if all children have called home
-                if( (i+1) === arr.length ) {
+                if ((i + 1) === arr.length) {
                     arr[settings.size].element[0].scrollIntoView(true);
                 }
                 return arr[i].p;
@@ -69,10 +73,10 @@
             controller: ['$scope', '$attrs', controller],
             scope: true,
             transclude: true,
-            template : '<div ng-repeat="infinitePoint in __infiniteScrollSizer"' +
-                       '    infinite-scroll-register-element="infinitePoint.p">' +
-                       '        <div ng-transclude></div>' +
-                       '</div>',
+            template: '<div ng-repeat="infinitePoint in __infiniteScrollSizer"' +
+                    '    infinite-scroll-register-element="infinitePoint.p">' +
+                    '        <div ng-transclude></div>' +
+                    '</div>',
             link: linkFn
         }
     });
@@ -81,12 +85,16 @@
         return function (scope, elm, attr) {
             var isOffset = scope.__infiniteScrollRegister(scope.$index, elm);
             scope.isOffset = isOffset;
+            scope.$on('InfiniteScrollOffsetMoved', function (event, delta) {
+                scope.isOffset += delta;
+                console.log(scope.isOffset);
+            });
         }
     });
     App.controller("Ctrl", function Ctrl() {
         this.hello = "How's things?";
 
-        this.getName = function(number) {
+        this.getName = function (number) {
             return "Dude number " + number;
         }
     });

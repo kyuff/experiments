@@ -15,12 +15,10 @@
     </style>
 </head>
 <body>
-
-<div class="content" ng-controller="Ctrl as ctrl">
-    <div infinite-scroll="">
-        <div ng-repeat="item in ctrl.data" is-top="ctrl.scrollTop">
-            {{ item }}
-        </div>
+<div ng-controller="Ctrl as ctrl">
+    <input ng-model="ctrl.hello" type="text"/> {{  ctrl.hello }}
+    <div class="content" infinite-scroll='{ "size": 50 }'>
+        Yo {{  ctrl.getName(isOffset) }}
     </div>
 </div>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
@@ -29,31 +27,58 @@
 
     App.directive("infiniteScroll", function () {
         console.log("starting infiniteScroll directive");
-        return function (scope, scrollElement, attr) {
+        function linkFn(scope, scrollElement, attr) {
+            console.log("starting linker");
+            scrollElement.bind("scroll", function(event) {
+                console.log(event);
+            });
+        }
+
+        function controller($scope, $attrs) {
+
+            var settings = angular.fromJson($attrs.infiniteScroll);
+            console.log("starting controller with size: " + settings.size);
+            var arr = [];
+            for (var i = -settings.size; i < settings.size; i++) {
+                arr.push({ p: i, element: null});
+            }
+            $scope.__infiniteScrollSizer = arr;
+
+            $scope.__infiniteScrollRegister = function(i, el) {
+                arr[i].element = el;
+                // Check if all children have called home
+                if( (i+1) === arr.length ) {
+                    arr[settings.size].element[0].scrollIntoView(true);
+                }
+                return arr[i].p;
+            }
+
+        }
+
+        return {
+            controller: ['$scope', '$attrs', controller],
+            scope: true,
+            transclude: true,
+            template : '<div ng-repeat="infinitePoint in __infiniteScrollSizer"' +
+                       '    infinite-scroll-register-element="infinitePoint.p">' +
+                       '        <div ng-transclude></div>' +
+                       '</div>',
+            link: linkFn
         }
     });
-    App.directive("isTop", function () {
-        console.log("starting isTop directive")
+    App.directive("infiniteScrollRegisterElement", function () {
+        //console.log("starting infiniteScrollRegisterElement directive")
         return function (scope, elm, attr) {
-            scope.$watch(attr.isTop, function (value) {
-                if (scope.$index === value) {
-                    elm[0].scrollIntoView(true);
-                }
-            });
+            var isOffset = scope.__infiniteScrollRegister(scope.$index, elm);
+            scope.isOffset = isOffset;
         }
     });
     App.controller("Ctrl", function Ctrl() {
-        this.data = [];
+        this.hello = "How's things?";
 
-        for (var index = 0; index < 100; index++) {
-            this.data[index] = {
-                key: index,
-                value: "Value " + index
-            };
+        this.getName = function(number) {
+            return "Dude number " + number;
         }
-
-        this.scrollTop = 25;
-
     });
 </script>
 

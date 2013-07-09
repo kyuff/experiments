@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d34c7d07-562c-4ab1-9881-f5446eefad4b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/infinite-scroll/kyuffInfiniteScroll.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infinite-scroll/index.html" afterPath="$PROJECT_DIR$/infinite-scroll/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="experiments.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1372914925505" ignored="false" />
-    <file path="/index.html" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1373136887239" ignored="false" />
+    <file path="/Dummy.txt" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1373393333312" ignored="false" />
+    <file path="/index.html" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1373397985216" ignored="false" />
+    <file path="/notes.txt" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1373221668718" ignored="false" />
+    <file path="/kyuffInfiniteScroll.js" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1373396860966" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +75,16 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/infinite-scroll/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="66" selection-start="3071" selection-end="3071" vertical-scroll-proportion="0.19765739">
+            <state line="30" column="57" selection-start="843" selection-end="843" vertical-scroll-proportion="0.47033897">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kyuffInfiniteScroll.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/infinite-scroll/kyuffInfiniteScroll.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="119" column="50" selection-start="4293" selection-end="4293" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,14 +111,16 @@
         <option value="$PROJECT_DIR$/javascript-augments/lib.js" />
         <option value="$PROJECT_DIR$/javascript-augments/index.html" />
         <option value="$PROJECT_DIR$/javascript-augments/augment.js" />
+        <option value="$PROJECT_DIR$/infinite-scroll/notes.txt" />
+        <option value="$PROJECT_DIR$/infinite-scroll/kyuffInfiniteScroll.js" />
         <option value="$PROJECT_DIR$/infinite-scroll/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
+    <option name="x" value="54" />
     <option name="y" value="22" />
-    <option name="width" value="1384" />
+    <option name="width" value="1386" />
     <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -135,19 +149,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,6 +193,19 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="infinite-scroll" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -341,11 +355,15 @@
       <created>1372880015170</created>
       <updated>1372880015170</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="slighty better finding of the top-most element">
+      <created>1373137275678</created>
+      <updated>1373137275678</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="22" width="1384" height="878" extended-state="6" />
+    <frame x="54" y="22" width="1386" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -357,10 +375,10 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24477611" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24588938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24477611" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -416,7 +434,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started work on handling scroll reaching bounds" />
+    <option name="LAST_COMMIT_MESSAGE" value="slighty better finding of the top-most element" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -435,6 +453,7 @@
     <MESSAGE value="Bound translucent template into the directive" />
     <MESSAGE value="Listening to scroll events" />
     <MESSAGE value="Started work on handling scroll reaching bounds" />
+    <MESSAGE value="slighty better finding of the top-most element" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -444,6 +463,27 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/infinite-scroll/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="37" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infinite-scroll/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infinite-scroll/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="66" selection-start="3071" selection-end="3071" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/infinite-scroll/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="64" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.0">
@@ -499,9 +539,16 @@
         <state line="6" column="30" selection-start="157" selection-end="157" vertical-scroll-proportion="0.12295082" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/infinite-scroll/kyuffInfiniteScroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="50" selection-start="4293" selection-end="4293" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/infinite-scroll/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="66" selection-start="3071" selection-end="3071" vertical-scroll-proportion="0.19765739">
+        <state line="30" column="57" selection-start="843" selection-end="843" vertical-scroll-proportion="0.47033897">
           <folding />
         </state>
       </provider>

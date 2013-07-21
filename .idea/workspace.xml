@@ -2,16 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d34c7d07-562c-4ab1-9881-f5446eefad4b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/infinite-scroll/kyuffInfiniteScroll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infinite-scroll/index.html" afterPath="$PROJECT_DIR$/infinite-scroll/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resteasy-guice/src/main/java/dk/kyuff/madplan/filter/MyBinding.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resteasy-guice/src/main/java/dk/kyuff/madplan/filter/MyFeature.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resteasy-guice/src/main/java/dk/kyuff/madplan/filter/MyFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resteasy-guice/src/main/java/dk/kyuff/madplan/resources/MyResource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resteasy-guice/resteasy-guice.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resteasy-standalone/src/main/java/dk/kyuff/madplan/resources/MyResource.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resteasy-standalone/pom.xml" afterPath="$PROJECT_DIR$/resteasy-guice/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resteasy-standalone/src/main/java/dk/kyuff/madplan/GuiceContextListener.java" afterPath="$PROJECT_DIR$/resteasy-guice/src/main/java/dk/kyuff/madplan/GuiceContextListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resteasy-standalone/src/main/java/dk/kyuff/madplan/HelloWorldModule.java" afterPath="$PROJECT_DIR$/resteasy-guice/src/main/java/dk/kyuff/madplan/HelloWorldModule.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resteasy-standalone/src/main/java/dk/kyuff/madplan/MyService.java" afterPath="$PROJECT_DIR$/resteasy-guice/src/main/java/dk/kyuff/madplan/MyService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resteasy-standalone/src/main/java/dk/kyuff/madplan/MyServiceImpl.java" afterPath="$PROJECT_DIR$/resteasy-guice/src/main/java/dk/kyuff/madplan/MyServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resteasy-standalone/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/resteasy-guice/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="experiments.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1373393333312" ignored="false" />
-    <file path="/index.html" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1373397985216" ignored="false" />
+    <file path="/Dummy.txt" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374353418976" ignored="false" />
+    <file path="/index.html" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1373398351826" ignored="false" />
     <file path="/notes.txt" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1373221668718" ignored="false" />
     <file path="/kyuffInfiniteScroll.js" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1373396860966" ignored="false" />
+    <file path="$PROJECT_DIR$/../scroll.js/README" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1373398642418" ignored="false" />
+    <file path="$PROJECT_DIR$/../scroll.js/index.html" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1373399981648" ignored="false" />
+    <file path="$PROJECT_DIR$/../scroll.js/kyuffInfiniteScroll.js" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1373398900404" ignored="false" />
+    <file path="/README.md" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1373399795880" ignored="false" />
+    <file path="$PROJECT_DIR$/../scroll.js/README.md" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1373399795880" ignored="false" />
+    <file path="/pom.xml" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374333479462" ignored="false" />
+    <file path="/.gitignore" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374173901516" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/pom.xml" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374333481339" ignored="false" />
+    <file path="/a.dummy" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374243268371" ignored="false" />
+    <file path="/GuiceContextListener.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374245840453" ignored="false" />
+    <file path="/MyServiceImpl.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374243588324" ignored="false" />
+    <file path="/HelloWorldModule.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374261864441" ignored="false" />
+    <file path="/MyResource.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374259153470" ignored="false" />
+    <file path="/web.xml" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374347326948" ignored="false" />
+    <file path="/MyFilter.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374262122155" ignored="false" />
+    <file path="/MyBinding.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374261792401" ignored="false" />
+    <file path="/MyFeature.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374261563457" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/guice/MadplanGuiceContextListener.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374353488814" ignored="false" />
+    <file path="/MadplanGuiceContextListener.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374321206304" ignored="false" />
+    <file path="/JerseyModule.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374319287746" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/guice/JerseyModule.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374346944213" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/security/RequiredAuthority.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374334288811" ignored="false" />
+    <file path="/RequiredAuthority.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374319438164" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/security/AuthorisationInterceptor.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374320768098" ignored="false" />
+    <file path="/AuthorisationInterceptor.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374320768098" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/test/java/dk/kyuff/madplan/security/AuthorisationFilterTest.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374346308525" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/security/AuthorisationFilter.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374334161846" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/security/SecurityModule.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374347278048" ignored="false" />
+    <file path="/SecurityModule.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374347249972" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/webapp/WEB-INF/web.xml" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374347383108" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/actions/HelloService.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374321644496" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/actions/HelloResource.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374321645150" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/actions/AccountService.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374321657005" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/test/java/dk/kyuff/madplan/actions/AccountResourceTest.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374321664395" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/actions/AccountResource.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374321664395" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/test/java/dk/kyuff/madplan/resources/AccountResourceTest.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374321703980" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/resources/HelloResource.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374347556593" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/resources/AccountResource.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374346641883" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/model/security/Session.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374330747095" ignored="false" />
+    <file path="/Session.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374330740110" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/model/User.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374330767823" ignored="false" />
+    <file path="/LoginResponseTest.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374330937104" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/test/java/dk/kyuff/madplan/model/security/LoginResponseTest.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374330948701" ignored="false" />
+    <file path="/AuthorisationFilterTest.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374346307980" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/security/RememberMeFilter.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374347212386" ignored="false" />
+    <file path="/RememberMeFilter.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374347211657" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/Constants.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374333634371" ignored="false" />
+    <file path="/Constants.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374333618449" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/security/SessionModule.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374333634371" ignored="false" />
+    <file path="/SessionModule.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374332995552" ignored="false" />
+    <file path="/AuthorisationFilter.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374334247021" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/security/AbstractAuthorisationFilter.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374334289576" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/security/UserAuthorisationFilter.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374334289576" ignored="false" />
+    <file path="/UserAuthorisationFilter.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374334269844" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/security/RequireUser.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374334301683" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/security/AdminAuthorisationFilter.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374334346329" ignored="false" />
+    <file path="/fragment.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374346359072" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/security/RequireAdmin.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374334375351" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/security/filters/UserAuthorisationFilter.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374346156910" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/security/filters/AbstractAuthorisationFilter.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374346156910" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/security/filters/AdminAuthorisationFilter.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374346138412" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/security/annotations/RequireUser.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374346156910" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/security/annotations/RequireAdmin.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374346156910" ignored="false" />
+    <file path="/HelloResource.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374347555580" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/test/java/dk/kyuff/madplan/security/RememberMeFilterTest.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374346422245" ignored="false" />
+    <file path="/RememberMeFilterTest.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374346421429" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/model/security/LoginResponse.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374346529617" ignored="false" />
+    <file path="$PROJECT_DIR$/../MadplanNew/src/main/java/dk/kyuff/madplan/guice/JaxRSModule.java" changelist="d34c7d07-562c-4ab1-9881-f5446eefad4b" time="1374346944572" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +108,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -63,6 +144,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -72,19 +154,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/infinite-scroll/index.html">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resteasy-guice/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="57" selection-start="843" selection-end="843" vertical-scroll-proportion="0.47033897">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kyuffInfiniteScroll.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/infinite-scroll/kyuffInfiniteScroll.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="50" selection-start="4293" selection-end="4293" vertical-scroll-proportion="0.0">
+            <state line="9" column="0" selection-start="430" selection-end="552" vertical-scroll-proportion="-0.10273973">
               <folding />
             </state>
           </provider>
@@ -101,6 +174,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
     <option name="myDateState">
       <MyDateState />
     </option>
@@ -108,13 +182,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/javascript-augments/lib.js" />
-        <option value="$PROJECT_DIR$/javascript-augments/index.html" />
         <option value="$PROJECT_DIR$/javascript-augments/augment.js" />
         <option value="$PROJECT_DIR$/infinite-scroll/notes.txt" />
         <option value="$PROJECT_DIR$/infinite-scroll/kyuffInfiniteScroll.js" />
         <option value="$PROJECT_DIR$/infinite-scroll/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/resteasy-standalone/src/main/java/dk/kyuff/madplan/MyService.java" />
+        <option value="$PROJECT_DIR$/resteasy-standalone/src/main/java/dk/kyuff/madplan/MyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/resteasy-standalone/src/main/java/dk/kyuff/madplan/resources/MyApp.java" />
+        <option value="$PROJECT_DIR$/resteasy-standalone/pom.xml" />
+        <option value="$PROJECT_DIR$/resteasy-standalone/src/main/java/dk/kyuff/madplan/GuiceContextListener.java" />
+        <option value="$PROJECT_DIR$/resteasy-standalone/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/resteasy-standalone/src/main/java/dk/kyuff/madplan/resources/MyResource.java" />
+        <option value="$PROJECT_DIR$/resteasy-standalone/src/main/java/dk/kyuff/madplan/filter/MyFeature.java" />
+        <option value="$PROJECT_DIR$/resteasy-standalone/src/main/java/dk/kyuff/madplan/filter/MyBinding.java" />
+        <option value="$PROJECT_DIR$/resteasy-standalone/src/main/java/dk/kyuff/madplan/HelloWorldModule.java" />
+        <option value="$PROJECT_DIR$/resteasy-standalone/src/main/java/dk/kyuff/madplan/filter/MyFilter.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -149,6 +240,19 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -177,7 +281,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="javascript-augments" />
+              <option name="myItemId" value="resteasy-guice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -191,21 +295,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="infinite-scroll" />
+              <option name="myItemId" value="resteasy-guice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resteasy-guice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resteasy-guice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madplan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -213,17 +360,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resteasy-standalone" />
+    <property name="DefaultHtmlFileTemplate" value="Html" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="Html" />
-    <property name="project.structure.side.proportion" value="0.0" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -359,36 +509,45 @@
       <created>1373137275678</created>
       <updated>1373137275678</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finalized the code and seperated it into it's own module and file">
+      <created>1373398163200</created>
+      <updated>1373398163200</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added experiment with Resteasy JAX-RS framework and Guice Integration.">
+      <created>1374247777919</created>
+      <updated>1374247777919</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="22" width="1386" height="878" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24477611" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24477611" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24477611" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24477611" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24477611" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -434,7 +593,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="slighty better finding of the top-most element" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added experiment with Resteasy JAX-RS framework and Guice Integration." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -454,6 +613,8 @@
     <MESSAGE value="Listening to scroll events" />
     <MESSAGE value="Started work on handling scroll reaching bounds" />
     <MESSAGE value="slighty better finding of the top-most element" />
+    <MESSAGE value="Finalized the code and seperated it into it's own module and file" />
+    <MESSAGE value="Added experiment with Resteasy JAX-RS framework and Guice Integration." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -463,92 +624,113 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/infinite-scroll/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="37" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infinite-scroll/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infinite-scroll/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="66" selection-start="3071" selection-end="3071" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infinite-scroll/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="64" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infinite-scroll/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="27" selection-start="1641" selection-end="1641" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infinite-scroll/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript-augments/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript-augments/augment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="22" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript-augments/lib.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript-augments/augment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="22" selection-start="596" selection-end="596" vertical-scroll-proportion="0.45081967" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript-augments/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="35" selection-start="389" selection-end="389" vertical-scroll-proportion="0.2542373">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript-augments/lib.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="157" selection-end="157" vertical-scroll-proportion="0.12295082" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/infinite-scroll/kyuffInfiniteScroll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="50" selection-start="4293" selection-end="4293" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="41" selection-start="0" selection-end="4743" vertical-scroll-proportion="0.020491803" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/infinite-scroll/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="57" selection-start="843" selection-end="843" vertical-scroll-proportion="0.47033897">
+        <state line="42" column="29" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.6822034" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resteasy-guice/src/main/java/dk/kyuff/madplan/MyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="35" selection-start="210" selection-end="210" vertical-scroll-proportion="0.20547946">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resteasy-guice/src/main/java/dk/kyuff/madplan/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="0.1849315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resteasy-guice/src/main/java/dk/kyuff/madplan/resources/MyResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="27" selection-start="695" selection-end="695" vertical-scroll-proportion="0.67808217">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/resteasy/jaxrs-api/3.0.2.Final/jaxrs-api-3.0.2.Final.jar!/javax/ws/rs/NameBinding.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="18" selection-start="351" selection-end="351" vertical-scroll-proportion="0.17595308" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/resteasy/jaxrs-api/3.0.2.Final/jaxrs-api-3.0.2.Final.jar!/javax/ws/rs/container/ContainerRequestContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="9" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/resteasy/jaxrs-api/3.0.2.Final/jaxrs-api-3.0.2.Final-sources.jar!/javax/ws/rs/container/ContainerRequestContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="16" selection-start="6115" selection-end="6115" vertical-scroll-proportion="0.60820365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resteasy-guice/src/main/java/dk/kyuff/madplan/filter/MyBinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="12" selection-start="294" selection-end="294" vertical-scroll-proportion="0.26712328">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resteasy-guice/src/main/java/dk/kyuff/madplan/GuiceContextListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="86" selection-start="441" selection-end="485" vertical-scroll-proportion="0.33946252">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resteasy-guice/src/main/java/dk/kyuff/madplan/filter/MyFeature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="67" selection-start="565" selection-end="565" vertical-scroll-proportion="0.3606789">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resteasy-guice/src/main/java/dk/kyuff/madplan/HelloWorldModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="29" selection-start="488" selection-end="488" vertical-scroll-proportion="0.43150684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resteasy-guice/src/main/java/dk/kyuff/madplan/filter/MyFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="55" selection-start="375" selection-end="397" vertical-scroll-proportion="0.34931508">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resteasy-guice/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="50" selection-start="580" selection-end="580" vertical-scroll-proportion="0.33088234">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resteasy-guice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="430" selection-end="552" vertical-scroll-proportion="-0.10273973">
           <folding />
         </state>
       </provider>
@@ -568,9 +750,21 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Node Libraries</last-edited>
+          <last-edited>jasmine-runner</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -582,7 +776,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -594,7 +788,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>experiments</last-edited>
+          <last-edited>resteasy-standalone</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

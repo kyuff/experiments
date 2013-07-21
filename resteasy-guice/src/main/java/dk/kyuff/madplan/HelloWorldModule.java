@@ -7,6 +7,8 @@
 package dk.kyuff.madplan;
 
 import com.google.inject.AbstractModule;
+import dk.kyuff.madplan.filter.MyFeature;
+import dk.kyuff.madplan.filter.MyFilter;
 import dk.kyuff.madplan.resources.MyResource;
 
 public class HelloWorldModule extends AbstractModule {
@@ -14,6 +16,9 @@ public class HelloWorldModule extends AbstractModule {
         bind(MyService.class).to(MyServiceImpl.class);
 
 
+
+
         bind(MyResource.class);
+        bind(MyFilter.class);
     }
 }

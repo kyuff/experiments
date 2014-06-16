@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ccl/ccl.iml" filepath="$PROJECT_DIR$/ccl/ccl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccl/ccl-compiler/ccl-compiler.iml" filepath="$PROJECT_DIR$/ccl/ccl-compiler/ccl-compiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccl/ccl-parser/ccl-parser.iml" filepath="$PROJECT_DIR$/ccl/ccl-parser/ccl-parser.iml" />
       <module fileurl="file://$PROJECT_DIR$/experiments.iml" filepath="$PROJECT_DIR$/experiments.iml" />
-      <module fileurl="file://$PROJECT_DIR$/resteasy-guice/resteasy-guice.iml" filepath="$PROJECT_DIR$/resteasy-guice/resteasy-guice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty1/netty1.iml" filepath="$PROJECT_DIR$/netty1/netty1.iml" />
     </modules>
   </component>
 </project>

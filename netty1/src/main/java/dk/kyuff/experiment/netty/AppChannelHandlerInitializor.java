@@ -15,6 +15,9 @@ public class AppChannelHandlerInitializor extends ChannelInitializer<SocketChann
     @Override
     protected void initChannel(SocketChannel ch) throws Exception {
         System.out.println("Creating channel #" + count++);
-        ch.pipeline().addLast(new AppChannelHandler());
+        ch.pipeline().addLast(
+                new AppDecoder(),
+                new AppChannelHandler()
+        );
     }
 }

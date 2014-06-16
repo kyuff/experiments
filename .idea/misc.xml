@@ -5,19 +5,23 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/resteasy-guice" />
+    <file type="web" url="file://$PROJECT_DIR$/resteasy-providers" />
   </component>
   <component name="IdProvider" IDEtalkID="A5336D29FBE1A55DA94DBFF82335A50C" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/resteasy-standalone/pom.xml" />
+        <option value="$PROJECT_DIR$/reasteasy-providers/pom.xml" />
+        <option value="$PROJECT_DIR$/netty1/pom.xml" />
+        <option value="$PROJECT_DIR$/ccl/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectResources">
     <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

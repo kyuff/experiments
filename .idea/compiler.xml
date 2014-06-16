@@ -24,6 +24,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="ccl-compiler" />
+        <module name="ccl-parser" />
+        <module name="netty1" />
+        <module name="parser" />
+        <module name="reasteasy-providers" />
         <module name="resteasy-standalone" />
       </profile>
     </annotationProcessing>

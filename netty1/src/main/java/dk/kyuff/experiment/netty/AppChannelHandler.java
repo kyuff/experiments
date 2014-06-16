@@ -17,10 +17,11 @@ public class AppChannelHandler extends ChannelInboundHandlerAdapter {
     private int count = 0;
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-        ByteBuf buf = (ByteBuf)msg;
-        System.out.println("read: " + buf.toString(Charset.forName("UTF-8")));
-        String replyText = "message #" + count++ + "\n";
+        Data data = (Data)msg;
+        System.out.println("Met " + data.getName());
+        String replyText = "message #" + count++ + ": Hello " + data.getName() + ", you are " + data.getAge() + " years old!";
         ByteBuf reply = Unpooled.wrappedBuffer(replyText.getBytes(Charset.forName("UTF-8")));
         ctx.writeAndFlush(reply);
     }
+
 }

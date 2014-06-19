@@ -4,8 +4,6 @@ import org.antlr.v4.runtime.*;
 import test.DrinkLexer;
 import test.DrinkParser;
 
-import java.io.IOException;
-
 /**
  * User: swi
  * Date: 16/06/14
@@ -13,20 +11,11 @@ import java.io.IOException;
  */
 public class Compiler {
 
-    public void getErrors(String expr) {
-        DrinkParser parser = getDrinkParser(expr);
-        BartenderErrorListener errors = new BartenderErrorListener();
-        parser.addErrorListener(errors);
-        parser.drinkSentence();
-
-    }
 
     public boolean isValid(String expr) {
-
         DrinkParser parser = getDrinkParser(expr);
-        parser.drinkSentence();
+        parser.barConversation();
         return parser.getNumberOfSyntaxErrors() == 0;
-
     }
 
     private DrinkParser getDrinkParser(String expr) {
@@ -34,5 +23,13 @@ public class Compiler {
         DrinkLexer lexer = new DrinkLexer(is);
         TokenStream tokens = new CommonTokenStream(lexer);
         return new DrinkParser(tokens);
+    }
+
+    public String compile(String expr) {
+        DrinkParser parser = getDrinkParser(expr);
+        ConversationHighlightWalker walker = new ConversationHighlightWalker();
+        parser.addParseListener(walker);
+        parser.barConversation();
+        return walker.getOutput();
     }
 }

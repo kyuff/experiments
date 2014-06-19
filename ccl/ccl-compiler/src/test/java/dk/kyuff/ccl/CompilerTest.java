@@ -21,9 +21,29 @@ public class CompilerTest {
     }
 
     @Test
+    public void testCompiler1() throws Exception {
+        // setup
+        String expr = "a cup of beer\nyes sir";
+        // execute
+        String out = compiler.compile(expr);
+        // validate
+        System.out.println(out);
+    }
+
+    @Test
+    public void testCompiler2() throws Exception {
+        // setup
+        String expr = "mug of beer\n";
+        // execute
+        String out = compiler.compile(expr);
+        // validate
+        System.out.println(out);
+    }
+
+    @Test
     public void testHelloWorld() throws Exception {
         // setup
-        String expr = "a cup of beer";
+        String expr = "a cup of beer\nyes sir";
         // execute
         boolean valid = compiler.isValid(expr);
         // validate
@@ -40,11 +60,4 @@ public class CompilerTest {
         assertFalse(valid);
     }
 
-    @Test
-    public void testErrors() throws Exception {
-        // setup
-        String expr = "uh keg of beer";
-        // execute
-        compiler.getErrors(expr);
-    }
 }

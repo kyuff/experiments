@@ -4,6 +4,7 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/arquillian-playground/app" />
     <file type="web" url="file://$PROJECT_DIR$/resteasy-guice" />
     <file type="web" url="file://$PROJECT_DIR$/resteasy-providers" />
   </component>
@@ -15,6 +16,7 @@
         <option value="$PROJECT_DIR$/reasteasy-providers/pom.xml" />
         <option value="$PROJECT_DIR$/netty1/pom.xml" />
         <option value="$PROJECT_DIR$/ccl/pom.xml" />
+        <option value="$PROJECT_DIR$/arquillian-playground/pom.xml" />
       </list>
     </option>
   </component>

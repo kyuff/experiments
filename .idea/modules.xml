@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/arquillian-playground/api/api.iml" filepath="$PROJECT_DIR$/arquillian-playground/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arquillian-playground/app/app.iml" filepath="$PROJECT_DIR$/arquillian-playground/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arquillian-playground/arquillian-playground.iml" filepath="$PROJECT_DIR$/arquillian-playground/arquillian-playground.iml" />
       <module fileurl="file://$PROJECT_DIR$/ccl/ccl.iml" filepath="$PROJECT_DIR$/ccl/ccl.iml" />
       <module fileurl="file://$PROJECT_DIR$/ccl/ccl-compiler/ccl-compiler.iml" filepath="$PROJECT_DIR$/ccl/ccl-compiler/ccl-compiler.iml" />
       <module fileurl="file://$PROJECT_DIR$/ccl/ccl-parser/ccl-parser.iml" filepath="$PROJECT_DIR$/ccl/ccl-parser/ccl-parser.iml" />
       <module fileurl="file://$PROJECT_DIR$/experiments.iml" filepath="$PROJECT_DIR$/experiments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arquillian-playground/api/greet-service-api/greet-service-api.iml" filepath="$PROJECT_DIR$/arquillian-playground/api/greet-service-api/greet-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arquillian-playground/greeter-service/greeter-service.iml" filepath="$PROJECT_DIR$/arquillian-playground/greeter-service/greeter-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty1/netty1.iml" filepath="$PROJECT_DIR$/netty1/netty1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arquillian-playground/ping-service/ping-service.iml" filepath="$PROJECT_DIR$/arquillian-playground/ping-service/ping-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arquillian-playground/api/ping-service-api/ping-service-api.iml" filepath="$PROJECT_DIR$/arquillian-playground/api/ping-service-api/ping-service-api.iml" />
     </modules>
   </component>
 </project>

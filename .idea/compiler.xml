@@ -24,10 +24,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="app" />
+        <module name="arquillian-app" />
         <module name="ccl-compiler" />
         <module name="ccl-parser" />
+        <module name="greet-service-api" />
+        <module name="greeter-service" />
         <module name="netty1" />
         <module name="parser" />
+        <module name="ping-service" />
+        <module name="ping-service-api" />
         <module name="reasteasy-providers" />
         <module name="resteasy-standalone" />
       </profile>

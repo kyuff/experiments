@@ -36,6 +36,7 @@
         <module name="ping-service-api" />
         <module name="reasteasy-providers" />
         <module name="resteasy-standalone" />
+        <module name="web-app" />
       </profile>
     </annotationProcessing>
   </component>

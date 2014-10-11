@@ -14,6 +14,8 @@
       <module fileurl="file://$PROJECT_DIR$/netty1/netty1.iml" filepath="$PROJECT_DIR$/netty1/netty1.iml" />
       <module fileurl="file://$PROJECT_DIR$/arquillian-playground/ping-service/ping-service.iml" filepath="$PROJECT_DIR$/arquillian-playground/ping-service/ping-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/arquillian-playground/api/ping-service-api/ping-service-api.iml" filepath="$PROJECT_DIR$/arquillian-playground/api/ping-service-api/ping-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wildfly-deploy/web-app/web-app.iml" filepath="$PROJECT_DIR$/wildfly-deploy/web-app/web-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wildfly-deploy/wildfly-deploy.iml" filepath="$PROJECT_DIR$/wildfly-deploy/wildfly-deploy.iml" />
     </modules>
   </component>
 </project>

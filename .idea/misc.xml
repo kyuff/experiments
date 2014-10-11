@@ -7,6 +7,7 @@
     <file type="web" url="file://$PROJECT_DIR$/arquillian-playground/app" />
     <file type="web" url="file://$PROJECT_DIR$/resteasy-guice" />
     <file type="web" url="file://$PROJECT_DIR$/resteasy-providers" />
+    <file type="web" url="file://$PROJECT_DIR$/wildfly-deploy/web-app" />
   </component>
   <component name="IdProvider" IDEtalkID="A5336D29FBE1A55DA94DBFF82335A50C" />
   <component name="MavenProjectsManager">
@@ -17,6 +18,7 @@
         <option value="$PROJECT_DIR$/netty1/pom.xml" />
         <option value="$PROJECT_DIR$/ccl/pom.xml" />
         <option value="$PROJECT_DIR$/arquillian-playground/pom.xml" />
+        <option value="$PROJECT_DIR$/wildfly-deploy/pom.xml" />
       </list>
     </option>
   </component>

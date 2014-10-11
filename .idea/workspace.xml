@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d34c7d07-562c-4ab1-9881-f5446eefad4b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wildfly-deploy/web-app/src/main/java/dk/kyuff/webapp/model/Order.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wildfly-deploy/web-app/src/main/java/dk/kyuff/webapp/OrderDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wildfly-deploy/web-app/src/main/java/dk/kyuff/webapp/OrderMemoryDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wildfly-deploy/web-app/src/main/java/dk/kyuff/webapp/resources/OrderResource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arquillian-playground/ping-service/src/test/java/dk/kyuff/arquillian/ping/PingServiceImplTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wildfly-deploy/web-app/src/main/java/dk/kyuff/webapp/WebApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wildfly-deploy/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wildfly-deploy/web-app/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wildfly-deploy/web-app/web-app.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wildfly-deploy/wildfly-deploy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arquillian-playground/ping-service/ping-service.iml" afterPath="$PROJECT_DIR$/arquillian-playground/ping-service/ping-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arquillian-playground/ping-service/pom.xml" afterPath="$PROJECT_DIR$/arquillian-playground/ping-service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wildfly-deploy/web-app/src/main/java/dk/kyuff/webapp/OrderMemoryDao.java" afterPath="$PROJECT_DIR$/wildfly-deploy/web-app/src/main/java/dk/kyuff/webapp/OrderMemoryDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="experiments.iws" />
@@ -133,14 +119,14 @@
       <file leaf-file-name="OrderMemoryDao.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wildfly-deploy/web-app/src/main/java/dk/kyuff/webapp/OrderMemoryDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.87852496" vertical-offset="15" max-vertical-offset="930">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.7809111" vertical-offset="15" max-vertical-offset="885">
+              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#846#847#0" expanded="true" />
-                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#695#696#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -907,7 +893,7 @@
       <workItem from="1404550886785" duration="2010000" />
       <workItem from="1405140963977" duration="218000" />
       <workItem from="1405714138127" duration="13000" />
-      <workItem from="1413001775243" duration="3286000" />
+      <workItem from="1413001775243" duration="3410000" />
     </task>
     <task id="LOCAL-00001" summary="Augmented Javascript experiment">
       <created>1350841744116</created>
@@ -961,11 +947,15 @@
       <created>1404507500009</created>
       <updated>1404507500009</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added a wildfly-deploy project to try out doing maven deploys of Wildfly">
+      <created>1413005505309</created>
+      <updated>1413005505309</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21590000" />
+    <option name="totallyTimeSpent" value="21714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="22" width="1391" height="878" extended-state="6" />
@@ -1063,7 +1053,8 @@
     <MESSAGE value="Added ANTLR experiment&#10;" />
     <MESSAGE value="Created a walker to try out ANTLR4" />
     <MESSAGE value="Created a simple project to try out Arquillian in." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a simple project to try out Arquillian in." />
+    <MESSAGE value="Added a wildfly-deploy project to try out doing maven deploys of Wildfly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a wildfly-deploy project to try out doing maven deploys of Wildfly" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1468,14 +1459,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wildfly-deploy/web-app/src/main/java/dk/kyuff/webapp/OrderMemoryDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87852496" vertical-offset="15" max-vertical-offset="930">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.7809111" vertical-offset="15" max-vertical-offset="885">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
           </folding>
         </state>
       </provider>

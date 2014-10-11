@@ -23,10 +23,7 @@ public class OrderMemoryDao implements OrderDao {
         this.db = new TreeMap<>();
         persist(new Order(4, "Orange"));
         persist(new Order(7, "Apple"));
-        persist(new Order(3, "Kiwi"));√Order current = getOne(order.getId());
-        current.setAmount(order.getAmount());
-        current.setId(order.getAmount());
-        return current;
+        persist(new Order(3, "Kiwi"));
     }
 
     @Override
